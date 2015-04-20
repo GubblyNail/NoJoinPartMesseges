@@ -17,6 +17,7 @@ public class messages  extends JavaPlugin implements Listener
 	@EventHandler(priority = EventPriority.HIGHEST)
 	public void onPlayerJoin(PlayerJoinEvent event)
 	{
+		event.setJoinMessage("bla");
 		event.setJoinMessage("");
 	}
 	
